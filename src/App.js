@@ -17,23 +17,27 @@ function App() {
             <p className='des'>SharePoint and PowerPlatform developer </p>
         </div>
         <div className='row d-flex' id='navRow'>
-        <ul class="nav">
-          <li class="nav-item" id='spfx'>
-            <a class="nav-link active" aria-current="page" href="#">SPFx</a>
+        <ul className="nav">
+          <li className="nav-item" id='spfx'>
+            <a className="nav-link active" aria-current="page" href="#">SPFx</a>
           </li>
-          <li class="nav-item" id='powerApps'>
-            <a class="nav-link" href="#">PowerApsp</a>
+          <li className="nav-item" id='powerApps'>
+            <a className="nav-link" href="#">PowerApps</a>
           </li>
-          <li class="nav-item" id='powerAuto'>
-            <a class="nav-link" href="#">Power Automate</a>
+          <li className="nav-item" id='powerAuto'>
+            <a className="nav-link" href="#">Power Automate</a>
           </li>
-          <li class="nav-item" id='sharePoint'>
-            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">SharePoint</a>
+          <li className="nav-item" id='sharePoint'>
+            <a className="nav-link " href="#" tabindex="-1" aria-disabled="true">SharePoint</a>
           </li>
-          <li class="nav-item" id='web'>
-            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Web</a>
+          <li className="nav-item" id='web'>
+            <a className="nav-link " href="#" tabindex="-1" aria-disabled="true">Web</a>
           </li>
         </ul>
+        </div>
+        <div className='row skills'>
+          
+
         </div>
       </div>
     </div>
