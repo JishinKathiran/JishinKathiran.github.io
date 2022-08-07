@@ -22,7 +22,7 @@ function App() {
             <a className="nav-link active" aria-current="page" href="#">SPFx</a>
           </li>
           <li className="nav-item" id='powerApps'>
-            <a className="nav-link" href="#">PowerApps</a>
+            <a className="nav-link" href="#">PowerApps </a>
           </li>
           <li className="nav-item" id='powerAuto'>
             <a className="nav-link" href="#">Power Automate</a>
@@ -36,7 +36,7 @@ function App() {
         </ul>
         </div>
         <div className='row skills'>
-          
+
 
         </div>
       </div>
