@@ -1,38 +1,39 @@
+
 .App {
-  text-align: center;
+  padding: 0;
+}
+li#spfx {
+  background: #a4262c;
+}
+li#powerApps {
+  background: #732A73;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li#powerAuto {
+  background: #4052a3;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li#sharePoint {
+  background: #038387;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li#web {
+  background: #747480;
 }
-
-.App-link {
-  color: #61dafb;
+a.nav-link {
+  color: #fff;
+  transition: .4s;
 }
+a.nav-link:hover{
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: aliceblue;
+  text-decoration-line: overline;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+a.nav-link:active {
+  color: rgb(233, 255, 89);
+  transition: .4s;
+}
+li.nav-item{
+  min-width: 150px;
+  border-radius: 100px;
 }
