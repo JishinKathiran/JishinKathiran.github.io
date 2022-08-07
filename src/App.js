@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
 
-      <div className='container'>
+      <div className='container mainContent'>
 
         <div className='row pt-5'>
             <h1>Jishin Kathiran</h1>

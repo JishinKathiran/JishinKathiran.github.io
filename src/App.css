@@ -29,11 +29,20 @@ a.nav-link:hover{
   text-decoration-line: overline;
 
 }
-a.nav-link:active {
-  color: rgb(233, 255, 89);
+/* a.nav-link.active {
+  color: rgb(233, 255, 89) !important;
   transition: .4s;
-}
+} */
 li.nav-item{
-  min-width: 150px;
-  border-radius: 100px;
+  /* min-width: 150px; */
+  /* border-radius: 50px; */
+  border-right: 10px solid #fff;
+  border-radius: 0 20px;
+  transition: .4s;
+  box-shadow: 5px 5px 20px #948e94;
+  margin-left: 10px;
 }
+li.nav-item:hover{
+  transform: translateY(10px)
+}
+
