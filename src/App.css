@@ -45,4 +45,12 @@ li.nav-item{
 li.nav-item:hover{
   transform: translateY(10px)
 }
+h1.title{
+  font-size: 90px;
+  font-family: 'Dancing Script', cursive;
+}
+p.des{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
 
