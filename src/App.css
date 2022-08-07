@@ -3,7 +3,8 @@
   padding: 0;
 }
 .mainContent{
-  /* background: rgb(5, 2, 2); */
+  background: #f6f6fa
+
 }
 li#spfx {
   background: #a4262c;
@@ -63,7 +64,7 @@ p.des{
 
 .roundShape p{
   /* background: rgb(2, 71, 175); */
-  animation: col 5s infinite ;
+  /* animation: col 5s infinite ; */
   /* height: 90px; */
   /* width: 90px; */
   /* border-radius: 0px 90px 100px 80px; */
@@ -75,6 +76,6 @@ p.des{
   align-items: center;
   justify-content: center;
   padding-right: 20px;
-  border-right: 2px solid gray;
+  /* border-right: 2px solid gray; */
   /* box-shadow: 5px 10px 10px 2px rgb(198, 196, 196); */
 }

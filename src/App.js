@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
 
-      <div className='container mainContent'>
+      <div className='container mainContent px-5 pb-5'>
 
         <div className='row pt-5'>
             <h1 className=' title'>Jishin Kathiran  <a href='https://www.linkedin.com/in/jishinkathiran/' target='_blank'><img src={linkedIn} width='45'/></a> <a href='https://www.linkedin.com/in/jishinkathiran/' target='_blank'><img src={gtiImage} width='50' /></a> </h1>
@@ -37,8 +37,8 @@ function App() {
           </li>
         </ul>
         </div>
-        <div className='row pt-4 pb-3'>
-            <h3 className='fs-4'>#Language of internet</h3>
+        <div className='row pt-4 pb-2'>
+            <h3 className='fs-4 fw-light'>#Language of internet</h3>
         </div>
         <div className='row skills'>
             <div className='d-flex flex-wrap'>
@@ -46,15 +46,15 @@ function App() {
                   language.map(lan =>{
                     return(
                       <span className='roundShape px-2'>
-                        <p style={{color:'#FFB900'}}>{lan}</p>
+                        <p style={{color:'#2e2e38'}}>{lan}</p>
                       </span>
                     )
                   })
               }
             </div>
         </div>
-        <div className='row pt-4 pb-3'>
-            <h3 className='fs-4'>#Tools</h3>
+        <div className='row pt-2'>
+            <h3 className='fs-4 fw-light'>#Tools</h3>
         </div>
         <div className='row skills'>
             <div className='d-flex flex-wrap'>
@@ -62,7 +62,7 @@ function App() {
                   tootls.map(too =>{
                     return(
                       <span className='roundShape px-2'>
-                        <p style={{color:'#7FBA00'}}>{too}</p>
+                        <p style={{color:'#2e2e38'}}>{too}</p>
                       </span>
                     )
                   })
