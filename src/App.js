@@ -37,10 +37,10 @@ function App() {
           </li>
         </ul>
         </div>
-        <div className='row pt-4 pb-2'>
+        {/* <div className='row pt-4 pb-2'>
             <h3 className='fs-4 fw-light'>#Language of internet</h3>
-        </div>
-        <div className='row skills'>
+        </div> */}
+        {/* <div className='row skills'>
             <div className='d-flex flex-wrap'>
               {
                   language.map(lan =>{
@@ -52,11 +52,11 @@ function App() {
                   })
               }
             </div>
-        </div>
-        <div className='row pt-2'>
+        </div> */}
+        {/* <div className='row pt-2'>
             <h3 className='fs-4 fw-light'>#Tools</h3>
-        </div>
-        <div className='row skills'>
+        </div> */}
+        {/* <div className='row skills'>
             <div className='d-flex flex-wrap'>
             {
                   tootls.map(too =>{
@@ -69,7 +69,7 @@ function App() {
               }
        
             </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
