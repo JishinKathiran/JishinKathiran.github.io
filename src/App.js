@@ -6,11 +6,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 import linkedIn from './asset/img/linkedIn.png'
 import gtiImage from './asset/img/gti.png'
 import profilePic from './asset/img/pp.png'
+
 function App() {
   let language = ['HTML', 'CSS', 'JavaScript', 'React JS', 'Python', 'C++', 'Node JS', 'Power Fx', 'PowerShell'];
   let tootls = ['VS Code', 'Git', 'DevOps', 'Share Gate']
   return (
     <div className="App">
+
       <div className='container mainContent px-5 pb-5 pt-3'>
       <div className='row d-flex' id='navRow'>
           <ul className="nav">
@@ -31,7 +33,7 @@ function App() {
             </li>
           </ul>
         </div>
-        <div className='row pt-2 d-flex'>
+        <div className='row d-flex'>
           <div className='col-2'>
             <img className='profilePic' src={profilePic} />
           </div>
