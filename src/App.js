@@ -11,7 +11,6 @@ function App() {
   let tootls = ['VS Code', 'Git', 'DevOps', 'Share Gate']
   return (
     <div className="App">
-
       <div className='container mainContent px-5 pb-5 pt-3'>
       <div className='row d-flex' id='navRow'>
           <ul className="nav">
